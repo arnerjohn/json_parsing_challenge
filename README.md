@@ -6,9 +6,12 @@ This was a fun exercise that was listed by Jorin Vogel in a gist: ["https://gist
 ## Running the Program
 
 ```
-~$ mix deps.get
-~$ mix deps.compile
-~$ mix
+~$ git clone git@github.com:arnerjohn/json_parsing_challenge.git
+~$ cd json_parsing_challenge/
+
+~/json_parsing_challenge $ mix deps.get
+~/json_parsing_challenge $ mix deps.compile
+~/json_parsing_challenge $ mix
 ```
 
 This will output a CSV file with the days date as the filename.
